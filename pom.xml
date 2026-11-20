@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ant.lzip.net</groupId>
+    <artifactId>mybatis</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>mybatis-3</module>
+        <module>mybatis-parent</module>
+        <module>mybatis-spring</module>
+        <module>mybatis-test</module>
+        <module>mybatis-spring-boot-2.3.2</module>
+        <module>../java/jdbc/mysql-connector-j-release-8.x</module>
+        <module>../java/hikaricp/HikariCP-5.1.0</module>
+    </modules>
+
+</project>
